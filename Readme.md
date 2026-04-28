@@ -42,6 +42,5 @@ Images can be added to `src/assets/` and embedded in Markdown with a relative li
 
 ## TODO
 
-  * Add silverbullet setup
-  * Add exclusions for silverbullet Library directory
   * https://ryanwelch.co.uk/blog/useful-markdown-plugins-astro/
+  * github integration

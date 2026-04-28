@@ -12,7 +12,7 @@ import { generateSidebarGroups } from './src/sidebar_grps.mjs';
 export default defineConfig({
   integrations: [
     starlight({
-      title: 'Hecatronic.3DPrinter.Voron',
+      title: 'Template Docs Page',
       customCss: [
         // Relative path to your custom CSS file
         './src/styles/custom.css',
@@ -23,19 +23,22 @@ export default defineConfig({
         //starlightAutoSidebar(),
         starlightSidebarTopics([
           {
-            label: 'Filament',
+            label: 'Topic1',
             icon: 'open-book',
-            link: '/filament/',
-            //items: [{ label: 'Filament2', autogenerate: { directory: 'filament' }, }],
-	    items: generateSidebarGroups('filament/', './src/content/docs/filament'),
+            link: '/topic1/',
+	    items: generateSidebarGroups('topic1/', './src/content/docs/topic1'),
           },
           {
-            label: 'Guides',
+            label: 'Topic2',
             icon: 'open-book',
-            link: '/guides/',
-            items: [{ label: 'Guides2', autogenerate: { directory: 'guides' }, }],
+            link: '/topic2/',
+            items: generateSidebarGroups('topic2/', './src/content/docs/topic2'),
           },
-        ]),
+        ],
+        {
+          exclude: ['/Library', '/Library/**/*'],
+        },
+	),
         starlightAutoDrafts(),
       ],
     }),
