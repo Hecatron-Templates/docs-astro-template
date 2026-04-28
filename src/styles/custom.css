@@ -1,0 +1,10 @@
+@layer starlight, terminal, my-overrides;
+
+@layer my-overrides {
+  :root, ::backdrop {
+      color-scheme: dark;
+      --brand-primary: #ef4646;
+      --brand-secondary: #be2f31;
+	  --sl-color-accent-high: #ef4646;
+  }
+}

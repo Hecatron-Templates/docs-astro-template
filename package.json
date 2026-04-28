@@ -1,0 +1,21 @@
+{
+  "name": "demo-docs1",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/starlight": "^0.38.4",
+    "astro": "^6.1.9",
+    "sharp": "^0.34.5",
+    "starlight-auto-drafts": "^0.3.0",
+    "starlight-auto-sidebar": "^0.3.0",
+    "starlight-sidebar-topics": "^0.7.1",
+    "starlight-theme-terminal": "^1.2.0"
+  }
+}
