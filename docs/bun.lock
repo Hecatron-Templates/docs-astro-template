@@ -9,7 +9,6 @@
         "astro": "^6.1.9",
         "sharp": "^0.34.5",
         "starlight-auto-drafts": "^0.3.0",
-        "starlight-auto-sidebar": "^0.3.0",
         "starlight-sidebar-topics": "^0.7.1",
         "starlight-theme-terminal": "^1.2.0",
       },
@@ -789,8 +788,6 @@
     "sprintf-js": ["sprintf-js@1.0.3", "", {}, "sha512-D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g=="],
 
     "starlight-auto-drafts": ["starlight-auto-drafts@0.3.0", "", { "dependencies": { "github-slugger": "^2.0.0", "gray-matter": "^4.0.3", "tinyglobby": "^0.2.15" }, "peerDependencies": { "@astrojs/starlight": ">=0.38.0" } }, "sha512-c8ho4jtajCXCwxbkxSLtQVZ7IiTmEza80kVtWR9DDP4e9ECJzAcHihJQWSQigm9+OkJsbx+KrfPJCefSWOBe9Q=="],
-
-    "starlight-auto-sidebar": ["starlight-auto-sidebar@0.3.0", "", { "dependencies": { "github-slugger": "^2.0.0" }, "peerDependencies": { "@astrojs/starlight": ">=0.38.0" } }, "sha512-4ZQXpIA6W8k2ki+2J8NnYyIbvbP8MbuIB6Zls95oJ/tEFYFYLxeOveWYuWKHxyCEJ/JN2k/oMYhUBALvPb25zw=="],
 
     "starlight-sidebar-topics": ["starlight-sidebar-topics@0.7.1", "", { "dependencies": { "picomatch": "^4.0.3" }, "peerDependencies": { "@astrojs/starlight": ">=0.38.0" } }, "sha512-2PBR05ZUvnKNoJtbL2u6GoE1qmQD0tFcd5+inYEJHJkx3LE2P+vlNslofTGHLtzch2XzyNbHUBQQu35bouA6NQ=="],
 
