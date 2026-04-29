@@ -1,5 +1,3 @@
 ---
-title: Topic1 Index
+title: Topic2 Index
 ---
-
-![image](./gunter1.jpg)

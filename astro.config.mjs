@@ -7,6 +7,9 @@ import starlightSidebarTopics from 'starlight-sidebar-topics'
 import starlightAutoDrafts from 'starlight-auto-drafts'
 import starlightAutoSidebar from 'starlight-auto-sidebar'
 import { generateSidebarGroups } from './src/sidebar_grps.mjs';
+import starlightThemeSix from '@six-tech/starlight-theme-six';
+
+
 
 // https://astro.build/config
 export default defineConfig({
@@ -19,8 +22,8 @@ export default defineConfig({
       ],
       social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/Hecatron-Cad/3DPrinter.Voron.git' }],
       plugins: [
-        starlightThemeTerminal(),
-        //starlightAutoSidebar(),
+	starlightThemeTerminal(),
+	//starlightAutoSidebar(),
         starlightSidebarTopics([
           {
             label: 'Topic1',
@@ -34,10 +37,7 @@ export default defineConfig({
             link: '/topic2/',
             items: generateSidebarGroups('topic2/', './src/content/docs/topic2'),
           },
-        ],
-        {
-          exclude: ['/Library', '/Library/**/*'],
-        },
+          ],
 	),
         starlightAutoDrafts(),
       ],
