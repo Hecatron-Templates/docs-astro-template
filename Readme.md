@@ -2,13 +2,13 @@
 
 This is a documentation template using astro and some plugins / starlight themes
 
-## theme
+## Theme
 
 The main theme is a combination of starlight and the Starlight Terminal addon
 
   * https://starlight.astro.build/
   * https://starlight.astro.build/resources/themes/#_top
-  * https://madlinux7.github.io/starlight-theme-terminal/examples/asides/
+  * https://madlinux7.github.io/starlight-theme-terminal/
 
 ## Plugins
 
@@ -35,12 +35,13 @@ Images can be added to `src/assets/` and embedded in Markdown with a relative li
 | :-------------------- | :----------------------------------------------- |
 | `bun install`         | Installs dependencies                            |
 | `bun dev`             | Starts local dev server at `localhost:4321`      |
-| `bun build`           | Build your production site to `./dist/`          |
+| `bun run build`       | Build your production site to `./dist/`          |
 | `bun preview`         | Preview your build locally, before deploying     |
 | `bun astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `bun astro -- --help` | Get help using the Astro CLI                     |
 
 ## TODO
 
-  * https://ryanwelch.co.uk/blog/useful-markdown-plugins-astro/
-  * github integration
+I don't think this is compatible with the topics plugin
+
+  * https://starlight-auto-sidebar.netlify.app/getting-started/
