@@ -17,7 +17,7 @@ export default defineConfig({
         // Relative path to your custom CSS file
         './src/styles/custom.css',
       ],
-      social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/Hecatron-Cad/3DPrinter.Voron.git' }],
+      social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/Hecatron-Templates/Astro-Docs-Template' }],
       plugins: [
 	starlightThemeTerminal(),
         starlightSidebarTopics([
