@@ -8,6 +8,8 @@ import { generateSidebarGroups } from './src/sidebar_grps.mjs';
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://hecatron-templates.github.io/Astro-Docs-Template/',
+  base: '/Astro-Docs-Template',
   integrations: [
     starlight({
       title: 'Template Docs Page',
