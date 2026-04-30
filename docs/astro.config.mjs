@@ -1,7 +1,6 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
-import Icons from 'starlight-plugin-icons';
 import starlightThemeTerminal from 'starlight-theme-terminal';
 import starlightSidebarTopics from 'starlight-sidebar-topics';
 import starlightAutoDrafts from 'starlight-auto-drafts';
