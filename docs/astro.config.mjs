@@ -8,8 +8,8 @@ import { generateSidebarGroups } from './src/sidebar_grps.mjs';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://hecatron-templates.github.io/Astro-Docs-Template/',
-  base: '/Astro-Docs-Template',
+  site: 'https://hecatron-templates.github.io/docs-astro-template/',
+  base: '/docs-astro-template',
   integrations: [
     starlight({
       title: 'Template Docs Page',
@@ -17,7 +17,7 @@ export default defineConfig({
         // Relative path to your custom CSS file
         './src/styles/custom.css',
       ],
-      social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/Hecatron-Templates/Astro-Docs-Template' }],
+      social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/Hecatron-Templates/docs-astro-template' }],
       plugins: [
 	starlightThemeTerminal(),
         starlightSidebarTopics([
