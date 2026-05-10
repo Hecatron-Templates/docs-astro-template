@@ -15,9 +15,9 @@ export function generateSidebarGroups(prefix, basePath) {
       if (entry.isDirectory()) {
         return {
           label: entry.name.charAt(0).toUpperCase() + entry.name.slice(1),
-          autogenerate: {
+          items: [{ autogenerate: {
             directory: prefix + entry.name,
-          },
+          } }],
         };
       }
 
