@@ -28,23 +28,15 @@ export default defineConfig({
       plugins: [
         starlightThemeBlack({
           navLinks: [
-            {
-              label: 'Home',
-              link: '/',
-            },
             'topic1',
             {
-              label: 'Starlight',
-              link: 'https://starlight.astro.build',
-              badge: 'External',
-              attrs: {
-                target: '_blank',
-                rel: 'noopener',
-              },
+              label: 'API',
+              link: '/api',
             },
           ],
         }),
-        starlightSidebarTopics([
+        starlightSidebarTopics(
+	[
           {
             label: 'Topic1',
             icon: 'open-book',
@@ -57,7 +49,11 @@ export default defineConfig({
             link: '/topic2/',
             items: generateSidebarGroups('topic2/', './src/content/docs/topic2'),
           },
-        ]),
+        ],
+	  {
+            exclude: ['/api', '/api/**/*'],
+          }
+	),
         starlightAutoDrafts(),
       ],
     }),
