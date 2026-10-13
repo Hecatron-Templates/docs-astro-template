@@ -7,17 +7,19 @@ visible at:
 
 ## Theme
 
-The main theme is a combination of starlight and the Starlight Terminal addon
+The theme used is a fork of starlight-theme-black.vercel.app
 
   * https://starlight.astro.build/
   * https://starlight.astro.build/resources/themes/#_top
-  * https://madlinux7.github.io/starlight-theme-terminal/
+  * https://starlight-theme-black.vercel.app
 
-## Plugins
+The modifications include use with the topics sidebar menu
+
+  * https://starlight-sidebar-topics.netlify.app
+
+## Other Plugins
 
   * https://starlight-auto-drafts.netlify.app
-  * https://starlight-sidebar-topics.netlify.app/
-  * https://starlight-auto-sidebar.netlify.app
 
 ## Navigcation
 
